@@ -12,7 +12,7 @@
 > - セクション見出しは残し、「該当なし」または「N/A」と記載すること
 > - 無理に内容を創作してはならない
 >
-> 詳細は `~/.claude/rules/pr-business-logic-report.md` セクション0.4を参照。
+> 詳細は `~/.claude/policies/pr-business-logic-report.md` セクション0.4を参照。
 
 **作成日**: [YYYY-MM-DD]
 **対象PR**: [#番号 PRタイトル](PR URL)

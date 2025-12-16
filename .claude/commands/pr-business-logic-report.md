@@ -77,9 +77,9 @@ gh pr diff <pr-number>
 
 ### 5. レポートの出力
 
-**出力先**: `docs/pr-business-logic-reports/pr-[PR番号]-report.md`
+**出力先**: `[プロジェクトのドキュメントディレクトリ]/pr-business-logic-reports/pr-[PR番号]-report.md`
 
-> **注**: 出力先フォルダが存在しない場合は作成すること。
+> **注**: 出力先フォルダが存在しない場合は作成すること。プロジェクトの慣例に従い、適切なディレクトリを選択すること（例: `docs/`, `documentation/`等）。
 
 **出力フォーマット**: テンプレートファイルの構造を**完全に遵守**すること。
 
@@ -116,4 +116,4 @@ gh pr diff <pr-number>
 
 - **ルールの遵守**: `~/.claude/policies/pr-business-logic-report.md`のルールを厳守
 - **テンプレート使用**: `~/.claude/policies/templates/pr-business-logic-report-template.md`のフォーマットに従う
-- **出力先の統一**: `docs/pr-business-logic-reports/`ディレクトリに保存
+- **出力先の統一**: プロジェクトのドキュメントディレクトリ配下の`pr-business-logic-reports/`に保存
